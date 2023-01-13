@@ -1,0 +1,6 @@
+framework module iotcamera {
+  umbrella header "iotcamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

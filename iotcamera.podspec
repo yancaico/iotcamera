@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iotcamera'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of iotcamera.'
+  s.version          = '1.3.6'
+  s.summary          = 'Tutk iotcamera pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A pod for Tutk iotcamera.
                        DESC
 
-  s.homepage         = 'https://github.com/yuantong/iotcamera'
+  s.homepage         = 'https://github.com/yancaico/iotcamera'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yuantong' => 'zosidev@163.com' }
-  s.source           = { :git => 'https://github.com/yuantong/iotcamera.git', :tag => s.version.to_s }
+  s.author           = { 'ziliye' => 'zosidev@163.com' }
+  s.source           = { :git => 'https://github.com/yancaico/iotcamera.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'iotcamera/Classes/**/*'
+  s.vendored_frameworks = 'iotcamera/frameworks/IOTCamera.framework'
   
   # s.resource_bundles = {
   #   'iotcamera' => ['iotcamera/Assets/*.png']
