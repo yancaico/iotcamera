@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'iotcamera'
+  s.name             = 'tutk_camera'
   s.version          = '1.3.6'
   s.summary          = 'Tutk iotcamera pod'
 
@@ -30,14 +30,14 @@ A pod for Tutk iotcamera.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'iotcamera/Classes/**/*'
-  s.vendored_frameworks = 'iotcamera/frameworks/IOTCamera.framework'
+  s.source_files = 'Pod/Classes/**/*.h'
+  s.vendored_frameworks = 'Pod/frameworks/IOTCamera.framework'
   
   # s.resource_bundles = {
   #   'iotcamera' => ['iotcamera/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

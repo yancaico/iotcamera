@@ -1,0 +1,6 @@
+framework module tutk_camera {
+  umbrella header "tutk_camera-umbrella.h"
+
+  export *
+  module * { export * }
+}

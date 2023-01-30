@@ -7,6 +7,7 @@
 //
 
 #import "TUTKAppDelegate.h"
+#import <tutk_camera/tutk_camera.h>
 
 @implementation TUTKAppDelegate
 

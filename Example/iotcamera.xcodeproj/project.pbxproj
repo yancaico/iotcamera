@@ -349,11 +349,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iotcamera_Example/Pods-iotcamera_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/iotcamera/iotcamera.framework",
+				"${PODS_ROOT}/../../tutk_camera/frameworks/IOTCamera.framework",
+				"${BUILT_PRODUCTS_DIR}/tutk_camera/tutk_camera.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iotcamera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IOTCamera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/tutk_camera.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

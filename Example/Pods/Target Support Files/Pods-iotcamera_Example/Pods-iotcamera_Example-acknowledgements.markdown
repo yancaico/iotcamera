@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## iotcamera
+## tutk_camera
 
 Copyright (c) 2023 yuantong <zosidev@163.com>
 

@@ -1,11 +1,11 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_CONFIGURATION_BUILD_DIR}/Expecta" "${PODS_CONFIGURATION_BUILD_DIR}/Expecta+Snapshots" "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase" "${PODS_CONFIGURATION_BUILD_DIR}/Specta" "${PODS_CONFIGURATION_BUILD_DIR}/iotcamera"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_CONFIGURATION_BUILD_DIR}/Expecta" "${PODS_CONFIGURATION_BUILD_DIR}/Expecta+Snapshots" "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase" "${PODS_CONFIGURATION_BUILD_DIR}/Specta" "${PODS_CONFIGURATION_BUILD_DIR}/tutk_camera" "${PODS_ROOT}/../../tutk_camera/frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Expecta/Expecta.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Specta/Specta.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/iotcamera/iotcamera.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Expecta/Expecta.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Specta/Specta.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/tutk_camera/tutk_camera.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift "$(PLATFORM_DIR)/Developer/Library/Frameworks" '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
-OTHER_LDFLAGS = $(inherited) -framework "Expecta" -framework "Expecta_Snapshots" -framework "FBSnapshotTestCase" -framework "Foundation" -framework "QuartzCore" -framework "Specta" -framework "UIKit" -framework "XCTest" -framework "iotcamera"
+OTHER_LDFLAGS = $(inherited) -framework "Expecta" -framework "Expecta_Snapshots" -framework "FBSnapshotTestCase" -framework "Foundation" -framework "IOTCamera" -framework "QuartzCore" -framework "Specta" -framework "UIKit" -framework "XCTest" -framework "tutk_camera"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

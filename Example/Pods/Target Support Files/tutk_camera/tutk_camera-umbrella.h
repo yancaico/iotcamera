@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "tutk_camera.h"
 
-FOUNDATION_EXPORT double iotcameraVersionNumber;
-FOUNDATION_EXPORT const unsigned char iotcameraVersionString[];
+FOUNDATION_EXPORT double tutk_cameraVersionNumber;
+FOUNDATION_EXPORT const unsigned char tutk_cameraVersionString[];
 

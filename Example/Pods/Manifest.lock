@@ -9,15 +9,15 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - iotcamera (0.1.0)
   - Specta (1.0.7)
+  - tutk_camera (1.3.6)
 
 DEPENDENCIES:
   - Expecta
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
-  - iotcamera (from `../`)
   - Specta
+  - tutk_camera (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -27,16 +27,16 @@ SPEC REPOS:
     - Specta
 
 EXTERNAL SOURCES:
-  iotcamera:
+  tutk_camera:
     :path: "../"
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  iotcamera: 62a1469ba1803867828df32236ebabd03459e1ca
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  tutk_camera: 3b1734a672b45c5199ff914183e665acde8a8fbc
 
-PODFILE CHECKSUM: 531b8fb41381f72b351c5e64a9d56cc173ad2c25
+PODFILE CHECKSUM: 08bcf14be016b1a7389151cc0075006af081b4e6
 
 COCOAPODS: 1.11.3

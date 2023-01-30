@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'iotcamera_Example' do
-  pod 'iotcamera', :path => '../'
+  pod 'tutk_camera', :path => '../'
 
   target 'iotcamera_Tests' do
     inherit! :search_paths
